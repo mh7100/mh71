@@ -32,25 +32,44 @@ def checksetup():
         maxy.left(90)
         maxy.forward(80)
 
+
 def checksetuppt2():
     import turtle
     maxy = turtle.Turtle()
-    maxy.shape("circle")
+    maxy.shape("circle")            #Black checker setup
     maxy.shapesize(3,3)
     maxy.up()
+    maxy.goto(-280, -280)
     
-    
-    maxy.goto(-280, -280)           #Line 1 of black checkers
-    for i in range(3):
+                                    
+    for i in range(3):              
         maxy.stamp()
-        maxy.forward(160)
+        maxy.forward(160)                   #Lines of black checkers
     maxy.stamp()
     maxy.forward(80)
     maxy.left(90)
     maxy.forward(80)
     maxy.left(90)
     
-    for i in range(3):              #Line 2 of black checkers
+    for i in range(3):              
+        maxy.stamp()
+        maxy.forward(160)                   
+    maxy.stamp()
+    maxy.forward(80)
+    maxy.right(90)
+    maxy.forward(80)
+    maxy.right(90)
+    
+    for i in range(3):              
+        maxy.stamp()
+        maxy.forward(160)
+    maxy.stamp()
+    
+    
+    maxy.color("red")               #Red checker setup
+    maxy.goto(-280,280)
+    
+    for i in range(3):              
         maxy.stamp()
         maxy.forward(160)
     maxy.stamp()
@@ -59,8 +78,28 @@ def checksetuppt2():
     maxy.forward(80)
     maxy.right(90)
     
-    for i in range(3):              #Line 3 of black checkers
+    for i in range(3):              
         maxy.stamp()
         maxy.forward(160)
+    maxy.stamp()
+    maxy.forward(80)
+    maxy.left(90)
+    maxy.forward(80)
+    maxy.left(90)
+    
+    for i in range(3):              
+        maxy.stamp()
+        maxy.forward(160)
+    maxy.color("white")    
+    
+    
+        
+        
+        
+        
+    
+    
+    
+    
     
 
