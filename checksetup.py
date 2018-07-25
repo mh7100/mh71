@@ -39,6 +39,7 @@ def checksetuppt2():
     maxy.shape("circle")            #Black checker setup
     maxy.shapesize(3,3)
     maxy.up()
+    maxy.speed(1000)
     maxy.goto(-280, -280)
     
                                     
@@ -91,7 +92,7 @@ def checksetuppt2():
         maxy.stamp()
         maxy.forward(160)
     maxy.color("white")    
-    
+    maxy.goto(1000,1000)
     
         
         
