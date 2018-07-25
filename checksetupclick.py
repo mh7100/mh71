@@ -35,7 +35,7 @@ def checksetup():
 
 def createpeices():
     import turtle
-                                        #black peices
+                                            #black peices
     peice1 = turtle.Turtle()
     peice1.shape("circle")
     peice1.shapesize(3,3)
