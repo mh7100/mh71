@@ -41,7 +41,6 @@ def createpeices():
     peice1.shapesize(3,3)
     peice1.up()
     peice1.goto(-280,-280)
-    peice1.onclick(move())
     
     peice2 = turtle.Turtle()
     peice2.shape("circle")
