@@ -1,5 +1,5 @@
-def write(turtle, color):
-    turtle.color("white")
-    turtle.write(str(turtle))
-    turtle.color(color)
+def name(turtle, turtlenm):
+    
+    turtle.pencolor("white")
+    turtle.write(turtlenm)
     
