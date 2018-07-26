@@ -188,10 +188,10 @@ def createpeices():
 
     peice12b.shape("circle")
     peice12b.shapesize(3,3)
-    name(peice12b, peice12bn)
     peice12b.color("red")
     peice12b.up()
     peice12b.goto(-200,120)
+    name(peice12b, peice12bn)
     
 
 
