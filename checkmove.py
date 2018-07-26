@@ -1,4 +1,4 @@
-def move(turtle, turtlename):
+def move(turtle, turtlename):                       #move a piece
     position = turtle.pos()
     leftright = input("Left or Right? Please capitalize")
     
@@ -32,7 +32,7 @@ def move(turtle, turtlename):
     
     
     
-def moveking(turtle, turtlename):
+def moveking(turtle, turtlename):                       #move a piece in any direction
     position = turtle.pos()
     direction = input("Left, Right, Backleft, or Backright? Please capitalize")
     
@@ -64,7 +64,7 @@ def moveking(turtle, turtlename):
     checkeat(turtle, turtlename, position, direction)
             
 
-def movenoask(turtle, turtlename, leftright):
+def movenoask(turtle, turtlename, leftright):                   #move with the direction as an input
     position = turtle.pos()
     
     if turtle.color()[1] == "red":
@@ -93,7 +93,7 @@ def movenoask(turtle, turtlename, leftright):
     
     
             
-def checkeat(turtle, turtlename, pos, direction):
+def checkeat(turtle, turtlename, pos, direction):                   #Eat another checker
     if turtle.color()[1] == "red":
         turtlelist = [peice1, peice2, peice3, peice4, peice5, peice6, peice7, peice8, peice9, peice10, peice11, peice12]
     else:

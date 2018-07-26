@@ -1,4 +1,4 @@
-def checksetup():
+def checksetup():                   #Create the board
     import turtle
     wn = turtle.Screen()
     turtle.setup(640, 640)
@@ -33,9 +33,9 @@ def checksetup():
         maxy.forward(80)
 
 
-def createpieces():
+def createpieces():                         #makes turtles into checker pieces and moves them to their correct spots
     import turtle
-                                            #black p
+                                            #black pieces
     peice1.shape("circle")
     peice1.shapesize(3,3)
     peice1.up()
@@ -108,7 +108,7 @@ def createpieces():
     peice12.goto(200,-120)
     name(peice12, peice12n)
         
-                                        #red p
+                                        #red pieces
     peice1b.shape("circle")
     peice1b.shapesize(3,3)
     peice1b.color("red")
