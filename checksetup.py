@@ -33,9 +33,9 @@ def checksetup():
         maxy.forward(80)
 
 
-def createpeices():
+def createpieces():
     import turtle
-                                            #black peices
+                                            #black p
     peice1.shape("circle")
     peice1.shapesize(3,3)
     peice1.up()
@@ -108,7 +108,7 @@ def createpeices():
     peice12.goto(200,-120)
     name(peice12, peice12n)
         
-                                        #red peices
+                                        #red p
     peice1b.shape("circle")
     peice1b.shapesize(3,3)
     peice1b.color("red")

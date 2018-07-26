@@ -94,9 +94,9 @@ if 1 == 1:
         
     def checkeat(turtle, turtlename, pos, direction):
         if turtle.color()[1] == "red":
-            turtlelist = [peice1, peice2, peice3, peice4, peice5, peice6, peice7, peice8, peice9, peice10, peice11, peice12]
+            turtlelist = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12]
         else:
-            turtlelist = [peice1b, peice2b, peice3b, peice4b, peice5b, peice6b, peice7b, peice8b, peice9b, peice10b, peice11b, peice12b]
+            turtlelist = [p1b, p2b, p3b, p4b, p5b, p6b, p7b, p8b, p9b, p10b, p11b, p12b]
         
         if turtle.pos() == turtlelist[0].pos():
             turtlelist[0].goto(1000,1000)
@@ -171,165 +171,165 @@ if 1 == 1:
             maxy.forward(80)
     
 
-    def createpeices():
+    def createpieces():
         import turtle
-                                                #black peices
-        peice1.shape("circle")
-        peice1.shapesize(3,3)
-        peice1.up()
-        peice1.goto(-280,-280)
-        name(peice1, peice1n)
+                                                #black ps
+        p1.shape("circle")
+        p1.shapesize(3,3)
+        p1.up()
+        p1.goto(-280,-280)
+        name(p1, p1n)
         
-        peice2.shape("circle")
-        peice2.shapesize(3,3)
-        peice2.up()
-        peice2.goto(-120,-280)
-        name(peice2, peice2n)
+        p2.shape("circle")
+        p2.shapesize(3,3)
+        p2.up()
+        p2.goto(-120,-280)
+        name(p2, p2n)
         
-        peice3.shape("circle")
-        peice3.shapesize(3,3)
-        peice3.up()
-        peice3.goto(40,-280)
-        name(peice3, peice3n)
+        p3.shape("circle")
+        p3.shapesize(3,3)
+        p3.up()
+        p3.goto(40,-280)
+        name(p3, p3n)
         
-        peice4.shape("circle")
-        peice4.shapesize(3,3)
-        peice4.up()
-        peice4.goto(200,-280)
-        name(peice4, peice4n)
+        p4.shape("circle")
+        p4.shapesize(3,3)
+        p4.up()
+        p4.goto(200,-280)
+        name(p4, p4n)
         
-        peice5.shape("circle")
-        peice5.shapesize(3,3)
-        peice5.up()
-        peice5.goto(-200,-200)
-        name(peice5, peice5n)
+        p5.shape("circle")
+        p5.shapesize(3,3)
+        p5.up()
+        p5.goto(-200,-200)
+        name(p5, p5n)
         
-        peice6.shape("circle")
-        peice6.shapesize(3,3)
-        peice6.up()
-        peice6.goto(-40,-200)
-        name(peice6, peice6n)
+        p6.shape("circle")
+        p6.shapesize(3,3)
+        p6.up()
+        p6.goto(-40,-200)
+        name(p6, p6n)
         
-        peice7.shape("circle")
-        peice7.shapesize(3,3)
-        peice7.up()
-        peice7.goto(120,-200)
-        name(peice7, peice7n)
+        p7.shape("circle")
+        p7.shapesize(3,3)
+        p7.up()
+        p7.goto(120,-200)
+        name(p7, p7n)
         
-        peice8.shape("circle")
-        peice8.shapesize(3,3)
-        peice8.up()
-        peice8.goto(280,-200)
-        name(peice8, peice8n)
+        p8.shape("circle")
+        p8.shapesize(3,3)
+        p8.up()
+        p8.goto(280,-200)
+        name(p8, p8n)
         
-        peice9.shape("circle")
-        peice9.shapesize(3,3)
-        peice9.up()
-        peice9.goto(-280,-120)
-        name(peice9, peice9n)
+        p9.shape("circle")
+        p9.shapesize(3,3)
+        p9.up()
+        p9.goto(-280,-120)
+        name(p9, p9n)
     
-        peice10.shape("circle")
-        peice10.shapesize(3,3)
-        peice10.up()
-        peice10.goto(-120,-120)
-        name(peice10, peice10n)
+        p10.shape("circle")
+        p10.shapesize(3,3)
+        p10.up()
+        p10.goto(-120,-120)
+        name(p10, p10n)
         
-        peice11.shape("circle")
-        peice11.shapesize(3,3)
-        peice11.up()
-        peice11.goto(40,-120)
-        name(peice11, peice11n)
+        p11.shape("circle")
+        p11.shapesize(3,3)
+        p11.up()
+        p11.goto(40,-120)
+        name(p11, p11n)
         
-        peice12.shape("circle")
-        peice12.shapesize(3,3)
-        peice12.up()
-        peice12.goto(200,-120)
-        name(peice12, peice12n)
+        p12.shape("circle")
+        p12.shapesize(3,3)
+        p12.up()
+        p12.goto(200,-120)
+        name(p12, p12n)
             
-                                            #red peices
-        peice1b.shape("circle")
-        peice1b.shapesize(3,3)
-        peice1b.color("red")
-        peice1b.up()
-        peice1b.goto(280,280)
-        name(peice1b, peice1bn)
+                                            #red ps
+        p1b.shape("circle")
+        p1b.shapesize(3,3)
+        p1b.color("red")
+        p1b.up()
+        p1b.goto(280,280)
+        name(p1b, p1bn)
         
-        peice2b.shape("circle")
-        peice2b.shapesize(3,3)
-        peice2b.color("red")
-        peice2b.up()
-        peice2b.goto(120,280)
-        name(peice2b, peice2n)
+        p2b.shape("circle")
+        p2b.shapesize(3,3)
+        p2b.color("red")
+        p2b.up()
+        p2b.goto(120,280)
+        name(p2b, p2n)
         
-        peice3b.shape("circle")
-        peice3b.shapesize(3,3)
-        peice3b.color("red")
-        peice3b.up()
-        peice3b.goto(-40,280)
-        name(peice3b, peice3n)
+        p3b.shape("circle")
+        p3b.shapesize(3,3)
+        p3b.color("red")
+        p3b.up()
+        p3b.goto(-40,280)
+        name(p3b, p3n)
         
-        peice4b.shape("circle")
-        peice4b.shapesize(3,3)
-        peice4b.color("red")
-        peice4b.up()
-        peice4b.goto(-200,280)
-        name(peice4b, peice4n)
+        p4b.shape("circle")
+        p4b.shapesize(3,3)
+        p4b.color("red")
+        p4b.up()
+        p4b.goto(-200,280)
+        name(p4b, p4n)
         
-        peice5b.shape("circle")
-        peice5b.shapesize(3,3)
-        peice5b.color("red")
-        peice5b.up()
-        peice5b.goto(200,200)
-        name(peice5b, peice5n)
+        p5b.shape("circle")
+        p5b.shapesize(3,3)
+        p5b.color("red")
+        p5b.up()
+        p5b.goto(200,200)
+        name(p5b, p5n)
         
-        peice6b.shape("circle")
-        peice6b.shapesize(3,3)
-        peice6b.color("red")
-        peice6b.up()
-        peice6b.goto(40,200)
-        name(peice6b, peice6n)
+        p6b.shape("circle")
+        p6b.shapesize(3,3)
+        p6b.color("red")
+        p6b.up()
+        p6b.goto(40,200)
+        name(p6b, p6n)
         
-        peice7b.shape("circle")
-        peice7b.shapesize(3,3)
-        peice7b.color("red")
-        peice7b.up()
-        peice7b.goto(-120,200)
-        name(peice7b, peice7n)
+        p7b.shape("circle")
+        p7b.shapesize(3,3)
+        p7b.color("red")
+        p7b.up()
+        p7b.goto(-120,200)
+        name(p7b, p7n)
         
-        peice8b.shape("circle")
-        peice8b.shapesize(3,3)
-        peice8b.color("red")
-        peice8b.up()
-        peice8b.goto(-280,200)
-        name(peice8b, peice8n)
+        p8b.shape("circle")
+        p8b.shapesize(3,3)
+        p8b.color("red")
+        p8b.up()
+        p8b.goto(-280,200)
+        name(p8b, p8n)
         
-        peice9b.shape("circle")
-        peice9b.shapesize(3,3)
-        peice9b.color("red")
-        peice9b.up()
-        peice9b.goto(280,120)
-        name(peice9b, peice9n)
+        p9b.shape("circle")
+        p9b.shapesize(3,3)
+        p9b.color("red")
+        p9b.up()
+        p9b.goto(280,120)
+        name(p9b, p9n)
     
-        peice10b.shape("circle")
-        peice10b.shapesize(3,3)
-        peice10b.color("red")
-        peice10b.up()
-        peice10b.goto(120,120)
-        name(peice10b, peice10n)
+        p10b.shape("circle")
+        p10b.shapesize(3,3)
+        p10b.color("red")
+        p10b.up()
+        p10b.goto(120,120)
+        name(p10b, p10n)
         
-        peice11b.shape("circle")
-        peice11b.shapesize(3,3)
-        peice11b.color("red")
-        peice11b.up()
-        peice11b.goto(-40,120)
-        name(peice11b, peice11n)
+        p11b.shape("circle")
+        p11b.shapesize(3,3)
+        p11b.color("red")
+        p11b.up()
+        p11b.goto(-40,120)
+        name(p11b, p11n)
     
-        peice12b.shape("circle")
-        peice12b.shapesize(3,3)
-        peice12b.color("red")
-        peice12b.up()
-        peice12b.goto(-200,120)
-        name(peice12b, peice12bn)
+        p12b.shape("circle")
+        p12b.shapesize(3,3)
+        p12b.color("red")
+        p12b.up()
+        p12b.goto(-200,120)
+        name(p12b, p12bn)
 
 
     def name(turtle, turtlenm):
@@ -341,56 +341,56 @@ if 1 == 1:
     
     if 1 == 1:
         import turtle
-        peice1 = turtle.Turtle()
-        peice2 = turtle.Turtle()
-        peice3 = turtle.Turtle()
-        peice4 = turtle.Turtle()
-        peice5 = turtle.Turtle()
-        peice6 = turtle.Turtle()
-        peice7 = turtle.Turtle()
-        peice8 = turtle.Turtle()
-        peice9 = turtle.Turtle()
-        peice10 = turtle.Turtle()
-        peice11 = turtle.Turtle()
-        peice12 = turtle.Turtle()
+        p1 = turtle.Turtle()
+        p2 = turtle.Turtle()
+        p3 = turtle.Turtle()
+        p4 = turtle.Turtle()
+        p5 = turtle.Turtle()
+        p6 = turtle.Turtle()
+        p7 = turtle.Turtle()
+        p8 = turtle.Turtle()
+        p9 = turtle.Turtle()
+        p10 = turtle.Turtle()
+        p11 = turtle.Turtle()
+        p12 = turtle.Turtle()
             
-        peice1b = turtle.Turtle()
-        peice2b = turtle.Turtle()
-        peice3b = turtle.Turtle()
-        peice4b = turtle.Turtle()
-        peice5b = turtle.Turtle()
-        peice6b = turtle.Turtle()
-        peice7b = turtle.Turtle()
-        peice8b = turtle.Turtle()
-        peice9b = turtle.Turtle()
-        peice10b = turtle.Turtle()
-        peice11b = turtle.Turtle()
-        peice12b = turtle.Turtle()
+        p1b = turtle.Turtle()
+        p2b = turtle.Turtle()
+        p3b = turtle.Turtle()
+        p4b = turtle.Turtle()
+        p5b = turtle.Turtle()
+        p6b = turtle.Turtle()
+        p7b = turtle.Turtle()
+        p8b = turtle.Turtle()
+        p9b = turtle.Turtle()
+        p10b = turtle.Turtle()
+        p11b = turtle.Turtle()
+        p12b = turtle.Turtle()
         
-        peice1n = 1
-        peice2n = 2
-        peice3n = 3
-        peice4n = 4
-        peice5n = 5
-        peice6n = 6
-        peice7n = 7
-        peice8n = 8
-        peice9n = 9
-        peice10n = 10
-        peice11n = 11
-        peice12n = 12
+        p1n = 1
+        p2n = 2
+        p3n = 3
+        p4n = 4
+        p5n = 5
+        p6n = 6
+        p7n = 7
+        p8n = 8
+        p9n = 9
+        p10n = 10
+        p11n = 11
+        p12n = 12
         
-        peice1bn = 1
-        peice2bn = 2
-        peice3bn = 3
-        peice4bn = 4
-        peice5bn = 5
-        peice6bn = 6
-        peice7bn = 7
-        peice8bn = 8
-        peice9bn = 9
-        peice10bn = 10
-        peice11bn = 11
-        peice12bn = 12
+        p1bn = 1
+        p2bn = 2
+        p3bn = 3
+        p4bn = 4
+        p5bn = 5
+        p6bn = 6
+        p7bn = 7
+        p8bn = 8
+        p9bn = 9
+        p10bn = 10
+        p11bn = 11
+        p12bn = 12
         
-    createpeices()
+    createpieces()
