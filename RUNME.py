@@ -32,7 +32,6 @@ if 1 == 1:
         name(turtle, turtlename)
         
         
-        
     def moveking(turtle, turtlename):
         position = turtle.pos()
         direction = input("Left, Right, Backleft, or Backright? Please capitalize")
@@ -93,7 +92,6 @@ if 1 == 1:
         position = turtle.pos()
         
         
-                
     def checkeat(turtle, turtlename, pos, direction):
         if turtle.color()[1] == "red":
             turtlelist = [peice1, peice2, peice3, peice4, peice5, peice6, peice7, peice8, peice9, peice10, peice11, peice12]
@@ -332,7 +330,6 @@ if 1 == 1:
         peice12b.up()
         peice12b.goto(-200,120)
         name(peice12b, peice12bn)
-    
 
 
     def name(turtle, turtlenm):
@@ -341,6 +338,7 @@ if 1 == 1:
     
     
     checksetup()
+    
     if 1 == 1:
         import turtle
         peice1 = turtle.Turtle()
