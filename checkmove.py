@@ -55,7 +55,7 @@ def moveking(turtle, turtlename):
         
     position = turtle.pos()
     
-    checkeat(turtle, turtlename, position, leftright)
+    checkeat(turtle, turtlename, position, direction)
             
 
 def movenoask(turtle, turtlename, leftright):
@@ -65,15 +65,23 @@ def movenoask(turtle, turtlename, leftright):
         turtle.clear()
         if leftright == "Left":
             turtle.goto(position[0] + 80,position[1] - 80)
-        else:
+        elif leftright == "Right":
             turtle.goto(position[0] - 80,position[1] - 80)
+        elif leftright == "Backleft":
+            turtle.goto(position[0] + 80,position[1] + 80)
+        elif leftright == "Backright":
+            turtle.goto(position[0] - 80,position[1] + 80)
         name(turtle, turtlename)
     else:
         turtle.clear()
         if leftright == "Left":
             turtle.goto(position[0] - 80,position[1] + 80)
-        else:
+        elif leftright == "Right":
             turtle.goto(position[0] + 80,position[1] + 80)
+        elif leftright == "Backleft":
+            turtle.goto(position[0] - 80,position[1] - 80)
+        elif leftright == "Backright":
+            turtle.goto(position[0] + 80,position[1] - 80)
         name(turtle, turtlename)
     position = turtle.pos()
     
