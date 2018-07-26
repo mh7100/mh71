@@ -180,6 +180,7 @@ def createpeices():
 
 
 if 1 == 1:
+    import turtle
     peice1 = turtle.Turtle()
     peice2 = turtle.Turtle()
     peice3 = turtle.Turtle()
