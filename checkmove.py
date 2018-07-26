@@ -51,8 +51,12 @@ def moveking(turtle, turtlename):
         turtle.clear()
         if direction == "Left":
             turtle.goto(position[0] - 80,position[1] + 80)
-        else:
+        elif direction == "Right":
             turtle.goto(position[0] + 80,position[1] + 80)
+        elif direction == "Backleft":
+            turtle.goto(position[0] - 80,position[1] - 80)
+        elif direction == "Backright":
+            turtle.goto(position[0] + 80,position[1] - 80)
         name(turtle, turtlename)
         
     position = turtle.pos()

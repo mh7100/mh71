@@ -203,59 +203,7 @@ def createpeices():
 
 
 
-if 1 == 1:
-    import turtle
-    peice1 = turtle.Turtle()
-    peice2 = turtle.Turtle()
-    peice3 = turtle.Turtle()
-    peice4 = turtle.Turtle()
-    peice5 = turtle.Turtle()
-    peice6 = turtle.Turtle()
-    peice7 = turtle.Turtle()
-    peice8 = turtle.Turtle()
-    peice9 = turtle.Turtle()
-    peice10 = turtle.Turtle()
-    peice11 = turtle.Turtle()
-    peice12 = turtle.Turtle()
-        
-    peice1b = turtle.Turtle()
-    peice2b = turtle.Turtle()
-    peice3b = turtle.Turtle()
-    peice4b = turtle.Turtle()
-    peice5b = turtle.Turtle()
-    peice6b = turtle.Turtle()
-    peice7b = turtle.Turtle()
-    peice8b = turtle.Turtle()
-    peice9b = turtle.Turtle()
-    peice10b = turtle.Turtle()
-    peice11b = turtle.Turtle()
-    peice12b = turtle.Turtle()
-    
-    peice1n = 1
-    peice2n = 2
-    peice3n = 3
-    peice4n = 4
-    peice5n = 5
-    peice6n = 6
-    peice7n = 7
-    peice8n = 8
-    peice9n = 9
-    peice10n = 10
-    peice11n = 11
-    peice12n = 12
-    
-    peice1bn = 1
-    peice2bn = 2
-    peice3bn = 3
-    peice4bn = 4
-    peice5bn = 5
-    peice6bn = 6
-    peice7bn = 7
-    peice8bn = 8
-    peice9bn = 9
-    peice10bn = 10
-    peice11bn = 11
-    peice12bn = 12
+
        
         
         
