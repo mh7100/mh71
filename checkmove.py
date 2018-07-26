@@ -3,43 +3,51 @@ def move(turtle):
     leftright = input("Left or Right? Please capitalize")
     
     if turtle.color()[0] == "red":
+        turtle.clear()
         if leftright == "Left":
             turtle.goto(position[0] + 80,position[1] - 80)
         else:
             turtle.goto(position[0] - 80,position[1] - 80)
+        write(turtle, turtle.color())
     else:
+        turtle.clear()
         if leftright == "Left":
             turtle.goto(position[0] - 80,position[1] + 80)
         else:
             turtle.goto(position[0] + 80,position[1] + 80)
-            
+        write(turtle, turtle.color())
+        
     position = turtle.pos()
+    
+    checkeat(turtle, position, leftright)
             
 
 def movenoask(turtle, leftright):
     position = turtle.pos()
     
     if turtle.color()[0] == "red":
+        turtle.clear()
         if leftright == "Left":
             turtle.goto(position[0] + 80,position[1] - 80)
         else:
             turtle.goto(position[0] - 80,position[1] - 80)
+        write(turtle, "red")
     else:
+        turtle.clear()
         if leftright == "Left":
             turtle.goto(position[0] - 80,position[1] + 80)
         else:
             turtle.goto(position[0] + 80,position[1] + 80)
-            
+        write(turtle, "black")
     position = turtle.pos()
-
+    
+    
             
 def checkeat(turtle, pos, direction):
     if turtle.color()[0] == "red":
         turtlelist = [peice1, peice2, peice3, peice4, peice5, peice6, peice7, peice8, peice9, peice10, peice11, peice12]
     else:
         turtlelist = [peice1b, peice2b, peice3b, peice4b, peice5b, peice6b, peice7b, peice8b, peice9b, peice10b, peice11b, peice12b]
-    
-    turtlelist.remove(turtle)
     
     if turtle.pos() == turtlelist[0].pos():
         turtlelist[0].goto(1000,1000)
@@ -73,6 +81,9 @@ def checkeat(turtle, pos, direction):
         movenoask(turtle, direction)
     elif turtle.pos() == turtlelist[10].pos():
         turtlelist[10].goto(1000,1000)
+        movenoask(turtle, direction)
+    elif turtle.pos() == turtlelist[11].pos():
+        turtlelist[11].goto(1000,1000)
         movenoask(turtle, direction)
     
     
