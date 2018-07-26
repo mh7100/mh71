@@ -27,6 +27,8 @@ def move(turtle, turtlename):
     else:
         if turtle.pos()[1] == 280:
             turtle.shape("square")
+            
+    name(turtle, turtlename)
     
     
     
@@ -42,12 +44,12 @@ def moveking(turtle, turtlename):
             turtle.goto(position[0] - 80,position[1] - 80)
         elif direction == "Backleft":
             turtle.goto(position[0] + 80,position[1] + 80)
-        elif direciton == "Backright":
+        elif direction == "Backright":
             turtle.goto(position[0] - 80,position[1] + 80)
         name(turtle, turtlename)
     else:
         turtle.clear()
-        if leftright == "Left":
+        if direction == "Left":
             turtle.goto(position[0] - 80,position[1] + 80)
         else:
             turtle.goto(position[0] + 80,position[1] + 80)
