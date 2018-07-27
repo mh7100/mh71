@@ -99,40 +99,40 @@ if 1 == 1:
             turtlelist = [p1b, p2b, p3b, p4b, p5b, p6b, p7b, p8b, p9b, p10b, p11b, p12b]
         
         if turtle.pos() == turtlelist[0].pos():
-            turtlelist[0].goto(500,500)
+            turtlelist[0].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[1].pos():
-            turtlelist[1].goto(500,500)
+            turtlelist[1].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[2].pos():
-            turtlelist[2].goto(500,500)
+            turtlelist[2].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[3].pos():
-            turtlelist[3].goto(500,500)
+            turtlelist[3].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[4].pos():
-            turtlelist[4].goto(500,500)
+            turtlelist[4].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[5].pos():
-            turtlelist[5].goto(500,500)
+            turtlelist[5].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[6].pos(): 
-            turtlelist[6].goto(500,500)
+            turtlelist[6].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[7].pos():
-            turtlelist[7].goto(500,500)
+            turtlelist[7].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[8].pos(): 
-            turtlelist[8].goto(500,500)
+            turtlelist[8].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[9].pos():
-            turtlelist[9].goto(500,500)
+            turtlelist[9].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[10].pos():
-            turtlelist[10].goto(500,500)
+            turtlelist[10].goto(400,400)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[11].pos():
-            turtlelist[11].goto(500,500)
+            turtlelist[11].goto(400,400)
             movenoask(turtle, turtlename, direction)
     
     
