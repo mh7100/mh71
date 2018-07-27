@@ -398,4 +398,38 @@ if 1 == 1:
     print('''This is a 2-player game of checkers. Use move(peice, "peicenumber") to move a peice. Use moveking(peice, "peicenumber") to move a king.
     For example, to move black peice number 3, type "move(p3, "3"). To move RED peice number 3, type "move(p3b, "3"). To move a king, just add "king" after the move commmand like this: "moveking(p3b, "3")" 
     Remember the basic rules of checkers: you can move your pieces diagonally forward on your turn. You can jump your opponent's checkers if one is next to one of your checkers and there is a open space beyond your opponent's checker. Remember, if you can jump a checker on your turn, you must jump it.''')
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
