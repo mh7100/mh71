@@ -99,40 +99,40 @@ if 1 == 1:
             turtlelist = [p1b, p2b, p3b, p4b, p5b, p6b, p7b, p8b, p9b, p10b, p11b, p12b]
         
         if turtle.pos() == turtlelist[0].pos():
-            turtlelist[0].goto(1000,1000)
+            turtlelist[0].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[1].pos():
-            turtlelist[1].goto(1000,1000)
+            turtlelist[1].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[2].pos():
-            turtlelist[2].goto(1000,1000)
+            turtlelist[2].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[3].pos():
-            turtlelist[3].goto(1000,1000)
+            turtlelist[3].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[4].pos():
-            turtlelist[4].goto(1000,1000)
+            turtlelist[4].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[5].pos():
-            turtlelist[5].goto(1000,1000)
+            turtlelist[5].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[6].pos(): 
-            turtlelist[6].goto(1000,1000)
+            turtlelist[6].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[7].pos():
-            turtlelist[7].goto(1000,1000)
+            turtlelist[7].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[8].pos(): 
-            turtlelist[8].goto(1000,1000)
+            turtlelist[8].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[9].pos():
-            turtlelist[9].goto(1000,1000)
+            turtlelist[9].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[10].pos():
-            turtlelist[10].goto(1000,1000)
+            turtlelist[10].goto(500,500)
             movenoask(turtle, turtlename, direction)
         elif turtle.pos() == turtlelist[11].pos():
-            turtlelist[11].goto(1000,1000)
+            turtlelist[11].goto(500,500)
             movenoask(turtle, turtlename, direction)
     
     
@@ -394,3 +394,8 @@ if 1 == 1:
         p12bn = 12
         
     createpieces()
+    
+    print('''This is a 2-player game of checkers. Use move(peice, "peicenumber") to move a peice. Use moveking(peice, "peicenumber") to move a king.
+    For example, to move black peice number 3, type "move(p3, "3"). To move RED peice number 3, type "move(p3b, "3"). To move a king, just add "king" after the move commmand like this: "moveking(p3b, "3")" 
+    Remember the basic rules of checkers: you can move your pieces diagonally forward on your turn. You can jump your opponent's checkers if one is next to one of your checkers and there is a open space beyond your opponent's checker. Remember, if you can jump a checker on your turn, you must jump it.''')
+
